@@ -26,7 +26,6 @@ function App() {
         <h1>Dynamic Grid Example</h1>
         <DynamicGrid items={items} />
         <div>
-          <h1>My Reading List</h1>
           <BookList />
         </div>
       </div>
