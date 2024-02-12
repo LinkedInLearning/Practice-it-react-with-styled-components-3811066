@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Counter App</h1>
+    <button id="incrementBtn">Increment</button>
+    <p id="counterValue">Count: 0</p>
+
+    <script>
+      const incrementBtn = document.getElementById("incrementBtn");
+      const counterValue = document.getElementById("counterValue");
+      let count = 0;
+
+      incrementBtn.addEventListener("click", () => {
+        count++;
+        counterValue.innerText = `Count: ${count}`;
+      });
+    </script>
+  </body>
+</html>
