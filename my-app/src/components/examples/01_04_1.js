@@ -11,3 +11,6 @@ const DynamicDataComponent = () => {
     </ul>
   );
 };
+
+export default DynamicDataComponent;
+

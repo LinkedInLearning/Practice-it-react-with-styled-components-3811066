@@ -16,3 +16,5 @@ const ConditionalRenderComponent = () => {
     </div>
   );
 };
+
+export default ConditionalRenderComponent;
