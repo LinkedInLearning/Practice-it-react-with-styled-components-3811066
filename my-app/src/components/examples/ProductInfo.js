@@ -16,6 +16,8 @@ ProductInfo.propTypes = {
   price: PropTypes.string.isRequired,
 };
 
+/////04_01 EXAMPLE////
+
 const InfoContainer = styled.div`
   background-color: #f0f0f0;
   padding: 10px;

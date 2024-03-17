@@ -11,6 +11,10 @@ const BookDetails = ({ book }) => {
   );
 };
 
+
+
+////CHALLANGE 4 SOLUTION////
+
 const Title = styled.h2`
   text-align: center
 `;
