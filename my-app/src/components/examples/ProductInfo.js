@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const ProductInfo = (props) => {
+const ProductInfo = ({ product }) => {
   return (
-    <div>
-      <h2>{props.name}</h2>
-      <p>Price: {props.price}</p>
-    </div>
+    <InfoContainer>
+      <ProductName>{product.name}</ProductName>
+      <ProductPrice>{product.price}</ProductPrice>
+    </InfoContainer>
   );
 };
 
@@ -16,4 +16,19 @@ ProductInfo.propTypes = {
   price: PropTypes.string.isRequired,
 };
 
+const InfoContainer = styled.div`
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+`;
+
+const ProductName = styled.h2`
+  color: #333;
+`;
+
+const ProductPrice = styled.p`
+  color: #008080;
+  font-weight: bold;
+`;
 export default ProductInfo;
