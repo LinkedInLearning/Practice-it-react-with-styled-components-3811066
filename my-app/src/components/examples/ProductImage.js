@@ -1,10 +1,10 @@
 import React from "react";
 const ProductImage = (props) => {
-  const imageUrl = props.ImageUrl || "default-image.jpg";
+  const imageUrl = props.imageUrl || "default-image.jpg";
 
   return (
     <div>
-      <img src={props.imageUrl} alt="Product" />
+      <img src={imageUrl} alt="Product" />
     </div>
   );
 };
