@@ -1,16 +1,15 @@
-// ProductList.js
 import React from "react";
-import ProductDetails from "./ProductDetails";
-import products from "/productData"; // Import data from the separate file
+import products from "./ProductData";
+import ProductInfo from "./ProductInfo";
 
 const ProductList = () => {
   return (
-    <div>
-      <h1>Product List</h1>
+    <>
+      <h1> Product List</h1>
       {products.map((product) => (
-        <ProductDetails key={product.id} product={product} />
+        <ProductInfo key={product.id} product={product} />
       ))}
-    </div>
+    </>
   );
 };
 

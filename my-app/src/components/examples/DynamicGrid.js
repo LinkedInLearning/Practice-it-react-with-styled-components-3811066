@@ -1,8 +1,5 @@
-// DynamicGrid.js
 import React from "react";
 import styled from "styled-components";
-
-
 
 const DynamicGrid = ({ items }) => {
   return (
@@ -17,7 +14,7 @@ const DynamicGrid = ({ items }) => {
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: ${({ numItems }) =>
-    numItems > 3 ? "repeat(4, 1fr)" : "repeat(3, 1fr)"};
+    numItems > 4 ? "repeat(4, 1fr)" : "repeat(3, 1fr)"};
   gap: 15px;
 `;
 
