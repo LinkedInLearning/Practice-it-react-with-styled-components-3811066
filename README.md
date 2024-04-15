@@ -1,6 +1,10 @@
 # Practice It: React with Styled Components
 This is the repository for the LinkedIn Learning course `Practice It: React with Styled Components`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+Are you looking to build dynamic and powerful web applications with react? This hands-on introductory course on React and styled components provides a comprehensive foundation for you to understand and apply key concepts, from the fundamentals of React and component development to advanced styling techniques using styled components. Instructor and web developer Julia Dyck also explores topics like JSX syntax and the intricacies of dynamic data rendering. Check out this course to start your journey toward building dynamic and visually appealing web applications.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -20,15 +24,19 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### Instructor
+
+Julia Dyck
+
+Full-Stack Web Developer, Producer, Artist
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/julia-dyck?u=104).
+
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/react-with-styled-components
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGVFk_kOJ6cTg/learning-public-crop_675_1200/0/1712944266196?e=2147483647&v=beta&t=A8y0PAqGxKKuCYsVBdYlz7pxLwTYEUrfdv-eMAEDx8E
 
