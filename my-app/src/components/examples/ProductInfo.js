@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const ProductInfo = ({ product }) => {
+const ProductInfo = ({ product, name, price }) => {
   return (
     <InfoContainer>
-      <ProductName>{product.name}</ProductName>
-      <ProductPrice>{product.price}</ProductPrice>
+      <ProductName>{name}</ProductName>
+      <ProductPrice>{price}</ProductPrice>
     </InfoContainer>
   );
 };
