@@ -43,7 +43,10 @@ const App = () => {
 
   return (
     <div>
+      <GlobalStyles />
       <BookList books={books} />
+      {/* <Parent/> */}
+      {/* <ProductList/> */}
     </div>
   );
 };
