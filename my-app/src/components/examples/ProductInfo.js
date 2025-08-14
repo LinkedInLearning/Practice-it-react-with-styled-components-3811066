@@ -5,8 +5,8 @@ import styled from "styled-components";
 const ProductInfo = ({ product, name, price }) => {
   return (
     <InfoContainer>
-      <ProductName>{name}</ProductName>
-      <ProductPrice>{price}</ProductPrice>
+      <ProductName>{product.name}</ProductName>
+      <ProductPrice>{product.price}</ProductPrice>
     </InfoContainer>
   );
 };
